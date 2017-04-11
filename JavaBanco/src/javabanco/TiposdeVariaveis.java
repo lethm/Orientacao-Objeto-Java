@@ -38,6 +38,7 @@ public class TiposdeVariaveis {
 		
 		System.out.println("cc1.getSaldo() após débito: " + cc1.getSaldo());
 		
+		System.out.println("cc1.extrato():" + cc1.extrato());
 		
 	}
 

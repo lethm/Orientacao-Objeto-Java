@@ -6,6 +6,11 @@ public class ContaCorrente {
 	private float saldo;
 	private ArrayList operacoes;
 	
+public class ContaCirrente {
+	private float saldo;
+	private ArrayList<Float> operacoes = new ArrayList<Float>();
+}
+	
 	public float getSaldo() {
 		return saldo;
 	}
@@ -19,5 +24,9 @@ public class ContaCorrente {
 	public float credito(float valor){
 		saldo += valor;
 		return saldo;
+	}
+	
+	public ArrayList<Float> extrato(){
+		return operacoes;
 	}
 }
